@@ -193,7 +193,7 @@ app.listen(PORT, () => {
 });
 
 // 🌍 Ping chính server của nó mỗi 10 giây để Render không đưa vào trạng thái ngủ
-const SERVER_URL = `https://mydiscordbot-9v5s.onrender.com/`;
+const SERVER_URL = `https://mydiscordbottft.onrender.com`;
 
 setInterval(() => {
     axios.get(SERVER_URL)
